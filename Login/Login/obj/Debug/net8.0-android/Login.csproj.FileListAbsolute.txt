@@ -1049,3 +1049,4 @@ D:\Login\Login\Login\obj\Debug\net8.0-android\stamp\_ConvertResourcesCases.stamp
 D:\Login\Login\Login\obj\Debug\net8.0-android\stamp\_GenerateJavaStubs.stamp
 D:\Login\Login\Login\obj\Debug\net8.0-android\stamp\_GeneratePackageManagerJava.stamp
 D:\Login\Login\Login\obj\Debug\net8.0-android\stamp\_ResolveLibraryProjectImports.stamp
+D:\Login\Login\Login\obj\Debug\net8.0-android\Login.sourcelink.json

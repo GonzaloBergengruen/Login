@@ -29,7 +29,7 @@ namespace Login
             {
                 if (!ValidateRUT(user))
                 {
-                    Aviso.Text = "Todos los campos son obligatorios";
+                    Aviso.Text = "RUT invalido";
                     return;
                 }
             }
@@ -37,7 +37,7 @@ namespace Login
             {
                 if (!ValidateCedula(user))
                 {
-                    Aviso.Text = "Todos los campos son obligatorios";
+                    Aviso.Text = "Cedula invalida";
                     return;
                 }
             }
@@ -59,10 +59,10 @@ namespace Login
         // Validación de RUT (Uruguay)
         private bool ValidateRUT(string rut)
         {
-            // Remover cualquier separador
+            // Eliminar puntos y guiones si están presentes
             rut = rut.Replace(".", "").Replace("-", "");
 
-            // Verificar que sea solo numérico y que tenga entre 7 y 12 dígitos
+            // Verificar que sea numérico y tenga entre 7 y 12 dígitos
             if (!Regex.IsMatch(rut, @"^\d{7,12}$"))
                 return false;
 
@@ -73,25 +73,34 @@ namespace Login
         private bool ValidateRUTChecksum(string rut)
         {
             // Separar el número base y el dígito verificador
-            string baseNumber = rut.Substring(0, rut.Length - 1);
-            int givenDV = int.Parse(rut.Substring(rut.Length - 1));
+            string baseNumber = rut.Substring(0, rut.Length - 1); // El número sin el DV
+            int givenDV = int.Parse(rut.Substring(rut.Length - 1)); // El dígito verificador
 
-            int[] weights = { 2, 9, 8, 7, 6, 3, 4 }; // Pesos según el estándar
+            int[] weights = { 2, 3, 4, 5, 6, 7, 8, 9, 2, 3, 4 }; // Pesos según el estándar de Uruguay
             int sum = 0;
-            int weightIndex = weights.Length - 1;
+            int weightIndex = 0;
 
             // Aplicar el cálculo de módulo 11
             for (int i = baseNumber.Length - 1; i >= 0; i--)
             {
                 sum += (baseNumber[i] - '0') * weights[weightIndex];
-                weightIndex = (weightIndex - 1 + weights.Length) % weights.Length;
+                weightIndex = (weightIndex + 1) % weights.Length;
             }
 
             int remainder = sum % 11;
-            int calculatedDV = remainder == 0 ? 0 : 11 - remainder;
+            int calculatedDV;
 
+            if (remainder == 0)
+                calculatedDV = 0;
+            else if (remainder == 1)
+                calculatedDV = 1;
+            else
+                calculatedDV = 11 - remainder;
+
+            // Comparar el DV calculado con el DV dado
             return calculatedDV == givenDV;
         }
+
 
 
         // Validación de Cédula
