@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Login.MainPage">
+
+    <StackLayout Padding="20" Spacing="15">
+        
+        <Label Text="Inicio de Sesión" FontSize="24" HorizontalOptions="Center"/>
+
+        <!--Selectior de tipo de usuario-->
+        <Picker x:Name="UserTypePicker" Title="Seleccione el tipo de usuario">
+            <Picker.ItemsSource>
+                <x:Array Type="{x:Type x:String}">
+                    <x:String>Proveedor</x:String>
+                    <x:String>Personal</x:String>
+                </x:Array>
+            </Picker.ItemsSource>
+        </Picker>
+
+        <!--Campos de entrada-->
+        <Entry x:Name="UserEntry" Placeholder="Ingrese su RUT o Cédula" Keyboard="Text" />
+        <Entry x:Name="PasswordEntry" Placeholder="Ingrese su contraseña" IsPassword="True" />
+        <Label x:Name="Aviso" Text=""/>
+
+        <!-- Botón de Iniciar Sesión -->
+        <Button Text="Iniciar Sesión" Clicked="OnLoginButtonClicked"/>
+
+    </StackLayout>
+
+</ContentPage>
