@@ -3,16 +3,28 @@
   "WorkspaceRootPath": "D:\\Login\\Login\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1F9EBFDB-1844-4534-B2CE-68B2685CEA2E}|Login\\Login.csproj|d:\\login\\login\\login\\datospersonalespage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{1F9EBFDB-1844-4534-B2CE-68B2685CEA2E}|Login\\Login.csproj|solutionrelative:login\\datospersonalespage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{1F9EBFDB-1844-4534-B2CE-68B2685CEA2E}|Login\\Login.csproj|d:\\login\\login\\login\\serviciosejecutadospage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F9EBFDB-1844-4534-B2CE-68B2685CEA2E}|Login\\Login.csproj|solutionrelative:login\\serviciosejecutadospage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F9EBFDB-1844-4534-B2CE-68B2685CEA2E}|Login\\Login.csproj|d:\\login\\login\\login\\serviciosejecutadospage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{1F9EBFDB-1844-4534-B2CE-68B2685CEA2E}|Login\\Login.csproj|solutionrelative:login\\serviciosejecutadospage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1F9EBFDB-1844-4534-B2CE-68B2685CEA2E}|Login\\Login.csproj|d:\\login\\login\\login\\serviciosasignadospage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{1F9EBFDB-1844-4534-B2CE-68B2685CEA2E}|Login\\Login.csproj|solutionrelative:login\\serviciosasignadospage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1F9EBFDB-1844-4534-B2CE-68B2685CEA2E}|Login\\Login.csproj|d:\\login\\login\\login\\serviciosejecutadospage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{1F9EBFDB-1844-4534-B2CE-68B2685CEA2E}|Login\\Login.csproj|solutionrelative:login\\serviciosejecutadospage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{1F9EBFDB-1844-4534-B2CE-68B2685CEA2E}|Login\\Login.csproj|d:\\login\\login\\login\\datospersonalespage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{1F9EBFDB-1844-4534-B2CE-68B2685CEA2E}|Login\\Login.csproj|solutionrelative:login\\datospersonalespage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F9EBFDB-1844-4534-B2CE-68B2685CEA2E}|Login\\Login.csproj|d:\\login\\login\\login\\menupage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{1F9EBFDB-1844-4534-B2CE-68B2685CEA2E}|Login\\Login.csproj|solutionrelative:login\\menupage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F9EBFDB-1844-4534-B2CE-68B2685CEA2E}|Login\\Login.csproj|d:\\login\\login\\login\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{1F9EBFDB-1844-4534-B2CE-68B2685CEA2E}|Login\\Login.csproj|solutionrelative:login\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1F9EBFDB-1844-4534-B2CE-68B2685CEA2E}|Login\\Login.csproj|d:\\login\\login\\login\\datospersonalespage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -23,16 +35,8 @@
       "RelativeMoniker": "D:0:0:{1F9EBFDB-1844-4534-B2CE-68B2685CEA2E}|Login\\Login.csproj|solutionrelative:login\\serviciosasignadospage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1F9EBFDB-1844-4534-B2CE-68B2685CEA2E}|Login\\Login.csproj|d:\\login\\login\\login\\serviciosejecutadospage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1F9EBFDB-1844-4534-B2CE-68B2685CEA2E}|Login\\Login.csproj|solutionrelative:login\\serviciosejecutadospage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{1F9EBFDB-1844-4534-B2CE-68B2685CEA2E}|Login\\Login.csproj|d:\\login\\login\\login\\menupage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1F9EBFDB-1844-4534-B2CE-68B2685CEA2E}|Login\\Login.csproj|solutionrelative:login\\menupage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1F9EBFDB-1844-4534-B2CE-68B2685CEA2E}|Login\\Login.csproj|d:\\login\\login\\login\\menupage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{1F9EBFDB-1844-4534-B2CE-68B2685CEA2E}|Login\\Login.csproj|solutionrelative:login\\menupage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1F9EBFDB-1844-4534-B2CE-68B2685CEA2E}|Login\\Login.csproj|d:\\login\\login\\login\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
@@ -54,56 +58,43 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "ServiciosEjecutadosPage.xaml",
               "DocumentMoniker": "D:\\Login\\Login\\Login\\ServiciosEjecutadosPage.xaml",
               "RelativeDocumentMoniker": "Login\\ServiciosEjecutadosPage.xaml",
               "ToolTip": "D:\\Login\\Login\\Login\\ServiciosEjecutadosPage.xaml",
               "RelativeToolTip": "Login\\ServiciosEjecutadosPage.xaml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAA5AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2024-11-27T15:41:40.144Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ServiciosAsignadosPage.xaml.cs",
-              "DocumentMoniker": "D:\\Login\\Login\\Login\\ServiciosAsignadosPage.xaml.cs",
-              "RelativeDocumentMoniker": "Login\\ServiciosAsignadosPage.xaml.cs",
-              "ToolTip": "D:\\Login\\Login\\Login\\ServiciosAsignadosPage.xaml.cs",
-              "RelativeToolTip": "Login\\ServiciosAsignadosPage.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-27T15:14:04.277Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "DatosPersonalesPage.xaml.cs",
               "DocumentMoniker": "D:\\Login\\Login\\Login\\DatosPersonalesPage.xaml.cs",
               "RelativeDocumentMoniker": "Login\\DatosPersonalesPage.xaml.cs",
               "ToolTip": "D:\\Login\\Login\\Login\\DatosPersonalesPage.xaml.cs",
               "RelativeToolTip": "Login\\DatosPersonalesPage.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAiwAkAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-27T15:06:38.554Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "ServiciosAsignadosPage.xaml",
               "DocumentMoniker": "D:\\Login\\Login\\Login\\ServiciosAsignadosPage.xaml",
               "RelativeDocumentMoniker": "Login\\ServiciosAsignadosPage.xaml",
               "ToolTip": "D:\\Login\\Login\\Login\\ServiciosAsignadosPage.xaml",
               "RelativeToolTip": "Login\\ServiciosAsignadosPage.xaml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAA5AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2024-11-27T15:34:48.66Z",
               "EditorCaption": ""
@@ -111,32 +102,71 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "DatosPersonalesPage.xaml",
-              "DocumentMoniker": "D:\\Login\\Login\\Login\\DatosPersonalesPage.xaml",
-              "RelativeDocumentMoniker": "Login\\DatosPersonalesPage.xaml",
-              "ToolTip": "D:\\Login\\Login\\Login\\DatosPersonalesPage.xaml",
-              "RelativeToolTip": "Login\\DatosPersonalesPage.xaml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAA5AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-11-27T15:24:33.92Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
               "Title": "ServiciosEjecutadosPage.xaml.cs",
               "DocumentMoniker": "D:\\Login\\Login\\Login\\ServiciosEjecutadosPage.xaml.cs",
               "RelativeDocumentMoniker": "Login\\ServiciosEjecutadosPage.xaml.cs",
-              "ToolTip": "D:\\Login\\Login\\Login\\ServiciosEjecutadosPage.xaml.cs*",
-              "RelativeToolTip": "Login\\ServiciosEjecutadosPage.xaml.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAIAAAAAAAAAA==",
+              "ToolTip": "D:\\Login\\Login\\Login\\ServiciosEjecutadosPage.xaml.cs",
+              "RelativeToolTip": "Login\\ServiciosEjecutadosPage.xaml.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAnwA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-27T15:41:58.515Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
+              "Title": "ServiciosAsignadosPage.xaml.cs",
+              "DocumentMoniker": "D:\\Login\\Login\\Login\\ServiciosAsignadosPage.xaml.cs",
+              "RelativeDocumentMoniker": "Login\\ServiciosAsignadosPage.xaml.cs",
+              "ToolTip": "D:\\Login\\Login\\Login\\ServiciosAsignadosPage.xaml.cs",
+              "RelativeToolTip": "Login\\ServiciosAsignadosPage.xaml.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAiwAwAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T15:14:04.277Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MainPage.xaml",
+              "DocumentMoniker": "D:\\Login\\Login\\Login\\MainPage.xaml",
+              "RelativeDocumentMoniker": "Login\\MainPage.xaml",
+              "ToolTip": "D:\\Login\\Login\\Login\\MainPage.xaml",
+              "RelativeToolTip": "Login\\MainPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-27T16:53:20.618Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DatosPersonalesPage.xaml",
+              "DocumentMoniker": "D:\\Login\\Login\\Login\\DatosPersonalesPage.xaml",
+              "RelativeDocumentMoniker": "Login\\DatosPersonalesPage.xaml",
+              "ToolTip": "D:\\Login\\Login\\Login\\DatosPersonalesPage.xaml",
+              "RelativeToolTip": "Login\\DatosPersonalesPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-27T15:24:33.92Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MenuPage.xaml",
+              "DocumentMoniker": "D:\\Login\\Login\\Login\\MenuPage.xaml",
+              "RelativeDocumentMoniker": "Login\\MenuPage.xaml",
+              "ToolTip": "D:\\Login\\Login\\Login\\MenuPage.xaml",
+              "RelativeToolTip": "Login\\MenuPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-27T15:34:21.976Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "MenuPage.xaml.cs",
               "DocumentMoniker": "D:\\Login\\Login\\Login\\MenuPage.xaml.cs",
               "RelativeDocumentMoniker": "Login\\MenuPage.xaml.cs",
@@ -149,20 +179,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "MenuPage.xaml",
-              "DocumentMoniker": "D:\\Login\\Login\\Login\\MenuPage.xaml",
-              "RelativeDocumentMoniker": "Login\\MenuPage.xaml",
-              "ToolTip": "D:\\Login\\Login\\Login\\MenuPage.xaml",
-              "RelativeToolTip": "Login\\MenuPage.xaml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAABGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-11-27T15:34:21.976Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "AppShell.xaml",
               "DocumentMoniker": "D:\\Login\\Login\\Login\\AppShell.xaml",
               "RelativeDocumentMoniker": "Login\\AppShell.xaml",
@@ -174,7 +191,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "MainPage.xaml.cs",
               "DocumentMoniker": "D:\\Login\\Login\\Login\\MainPage.xaml.cs",
               "RelativeDocumentMoniker": "Login\\MainPage.xaml.cs",
@@ -186,7 +203,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "AppShell.xaml.cs",
               "DocumentMoniker": "D:\\Login\\Login\\Login\\AppShell.xaml.cs",
               "RelativeDocumentMoniker": "Login\\AppShell.xaml.cs",

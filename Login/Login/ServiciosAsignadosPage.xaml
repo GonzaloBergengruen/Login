@@ -8,8 +8,7 @@
     <StackLayout Padding="20" Spacing="20">
         <Label Text="Servicios Asignados" FontSize="24" HorizontalOptions="Center"/>
 
-        <Label Text="Servicio 1: Internet 100 Mbps" FontSize="18"/>
-        <Label Text="Servicio 2: Televisión HD" FontSize="18"/>
+        <Label x:Name="Lista" FontSize="18"/>
         <Label/>
 
         <Button Text="Volver" Clicked="OnVolverClicked"/>
