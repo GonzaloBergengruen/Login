@@ -40,6 +40,12 @@ build_metadata.AdditionalFiles.ManifestResourceName = Login.DatosPersonalesPage.
 build_metadata.AdditionalFiles.TargetPath = DatosPersonalesPage.xaml
 build_metadata.AdditionalFiles.RelativePath = DatosPersonalesPage.xaml
 
+[D:/Login/Login/Login/DetallesServicioPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Login.DetallesServicioPage.xaml
+build_metadata.AdditionalFiles.TargetPath = DetallesServicioPage.xaml
+build_metadata.AdditionalFiles.RelativePath = DetallesServicioPage.xaml
+
 [D:/Login/Login/Login/MainPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Login.MainPage.xaml

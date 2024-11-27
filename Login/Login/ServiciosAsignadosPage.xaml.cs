@@ -7,7 +7,23 @@ namespace Login
         {
             InitializeComponent();
             Lista.Text = GetLista();
+            BindingContext = new ServiciosAsignadosViewModel();
         }
+
+        private async void OnServicioSelected(object sender, SelectionChangedEventArgs e)
+        {
+            if (e.CurrentSelection.Count > 0)
+            {
+                var serviciosSeleccionado = e.CurrentSelection[0] as Servicio;
+                if (serviciosSeleccionado != null)
+                {
+                    await Navigation.PushAsync(new DetallesServicioPage(serviciosSeleccionado));
+                }
+            }
+
+            ((CollectionView)sender).SelectedItem = null;
+        }
+
         private async void OnVolverClicked(object sender, EventArgs e)
         {
             await Navigation.PopAsync();

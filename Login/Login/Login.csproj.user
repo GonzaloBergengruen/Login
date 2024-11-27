@@ -13,6 +13,9 @@
     <MauiXaml Update="DatosPersonalesPage.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
+    <MauiXaml Update="DetallesServicioPage.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
     <MauiXaml Update="MenuPage.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
