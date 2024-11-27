@@ -2,13 +2,17 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Login.ServiciosAsignadosPage"
-             Title="Servicios Asignados">
+             Title="Servicios Asignados"
+             Shell.NavBarIsVisible="False">
 
     <StackLayout Padding="20" Spacing="20">
         <Label Text="Servicios Asignados" FontSize="24" HorizontalOptions="Center"/>
 
-        <Label Text="Servicio 1: Internet 100 Mbps" />
-        <Label Text="Servicio 2: Televisión HD" />
+        <Label Text="Servicio 1: Internet 100 Mbps" FontSize="18"/>
+        <Label Text="Servicio 2: Televisión HD" FontSize="18"/>
+        <Label/>
+
+        <Button Text="Volver" Clicked="OnVolverClicked"/>
     </StackLayout>
     
 </ContentPage>

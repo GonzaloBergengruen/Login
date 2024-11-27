@@ -21,5 +21,11 @@ namespace Login
         {
             await Navigation.PushAsync(new ServiciosEjecutadosPage());
         }
+
+        private async void OnCerrarSesionClicked(object sender, EventArgs e)
+        {
+            //Algo para avisar a la DB que esta cuenta no esta vinculada aca
+            await Navigation.PopAsync();
+        }
     }
 }

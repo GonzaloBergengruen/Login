@@ -2,17 +2,18 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Login.DatosPersonalesPage"
-             Title="">
+             Title=""
+             Shell.NavBarIsVisible="False">
 
     <StackLayout Padding="20" Spacing="20">
         <Label Text="Datos Personales" FontSize="24" HorizontalOptions="Center"/>
+    
+        <Label x:Name="Nombre" FontSize="18"/>
+        <Label x:Name="Id" FontSize="18"/>
+        <Label x:Name="Correo" FontSize="18"/>
+        <Label/>
 
-        <Label Text="Nombre: Juan Pérez" />
-        <Label Text="RUT: 211111110014" />
-        <Label Text="Correo: juan.perez@example.com" />
-        <Label x:Name="Nombre"/>
-        <Label x:Name="Id"/>
-        <Label x:Name="Correo"/>
+        <Button Text="Volver" Clicked="OnVolverClicked"/>
     </StackLayout>
     
 </ContentPage>
