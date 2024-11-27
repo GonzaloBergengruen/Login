@@ -8,8 +8,9 @@
     Title="Login">
 
     <ShellContent
-        Title="Home"
+        Title="Login"
         ContentTemplate="{DataTemplate local:MainPage}"
         Route="MainPage" />
+    <ShellContent Title="Menú" ContentTemplate="{DataTemplate local:MenuPage}"/>
 
 </Shell>

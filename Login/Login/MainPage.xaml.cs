@@ -42,13 +42,19 @@ namespace Login
                 }
             }
 
+            bool loginSuccess = true;
+            if (loginSuccess)
+            {
+                await Navigation.PushAsync(new MenuPage());
+            }
+
             // Enviar credenciales al servidor
             //bool loginSuccess = await AuthenticateUser(userType, user, password);
 
             //if (loginSuccess)
             //{
             //    await DisplayAlert("Éxito", "Inicio de sesión exitoso.", "OK");
-            //    // Navegar a la siguiente página
+            //    //Navegar a la siguiente página
             //}
             //else
             //{

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Login.ServiciosAsignadosPage"
+             Title="Servicios Asignados">
+
+    <StackLayout Padding="20" Spacing="20">
+        <Label Text="Servicios Asignados" FontSize="24" HorizontalOptions="Center"/>
+
+        <Label Text="Servicio 1: Internet 100 Mbps" />
+        <Label Text="Servicio 2: Televisión HD" />
+    </StackLayout>
+    
+</ContentPage>
