@@ -45,6 +45,10 @@ namespace Login
             bool loginSuccess = true;
             if (loginSuccess)
             {
+                UserTypePicker.SelectedIndex = -1;
+                UserEntry.Text = "";
+                PasswordEntry.Text = "";
+                Aviso.Text = "";
                 await Navigation.PushAsync(new MenuPage());
             }
 

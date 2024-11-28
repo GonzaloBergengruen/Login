@@ -3,10 +3,23 @@ namespace Login
 
 	public partial class DetallesServicioPage : ContentPage
 	{
+		public event Action<Servicio> ServicioRechazado;
+		private Servicio _servicio;
+
 		public DetallesServicioPage(Servicio servicio)
 		{
 			InitializeComponent();
-			BindingContext = servicio;
+			_servicio = servicio;
+			BindingContext = _servicio;
+		}
+
+		public async void OnRechazarServicioClicked(object sender, EventArgs e)
+		{
+			bool confirm = await DisplayAlert("Confirmar", "¿Desea rechazar este servicio?", "Si", "No");
+			if (confirm)
+			{
+				ServicioRechazado?.Invoke(_servicio);
+			}
 		}
 
         private async void OnVolverClicked(object sender, EventArgs e)
