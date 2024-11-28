@@ -3,28 +3,16 @@
   "WorkspaceRootPath": "D:\\Login\\Login\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1F9EBFDB-1844-4534-B2CE-68B2685CEA2E}|Login\\Login.csproj|d:\\login\\login\\login\\detallesservicioviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1F9EBFDB-1844-4534-B2CE-68B2685CEA2E}|Login\\Login.csproj|solutionrelative:login\\detallesservicioviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1F9EBFDB-1844-4534-B2CE-68B2685CEA2E}|Login\\Login.csproj|d:\\login\\login\\login\\datospersonalesviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F9EBFDB-1844-4534-B2CE-68B2685CEA2E}|Login\\Login.csproj|solutionrelative:login\\datospersonalesviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1F9EBFDB-1844-4534-B2CE-68B2685CEA2E}|Login\\Login.csproj|d:\\login\\login\\login\\serviciosasignadosviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1F9EBFDB-1844-4534-B2CE-68B2685CEA2E}|Login\\Login.csproj|solutionrelative:login\\serviciosasignadosviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1F9EBFDB-1844-4534-B2CE-68B2685CEA2E}|Login\\Login.csproj|d:\\login\\login\\login\\datospersonalespage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{1F9EBFDB-1844-4534-B2CE-68B2685CEA2E}|Login\\Login.csproj|solutionrelative:login\\datospersonalespage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1F9EBFDB-1844-4534-B2CE-68B2685CEA2E}|Login\\Login.csproj|d:\\login\\login\\login\\detallesserviciopage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{1F9EBFDB-1844-4534-B2CE-68B2685CEA2E}|Login\\Login.csproj|solutionrelative:login\\detallesserviciopage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1F9EBFDB-1844-4534-B2CE-68B2685CEA2E}|Login\\Login.csproj|d:\\login\\login\\login\\detallesserviciopage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1F9EBFDB-1844-4534-B2CE-68B2685CEA2E}|Login\\Login.csproj|solutionrelative:login\\detallesserviciopage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1F9EBFDB-1844-4534-B2CE-68B2685CEA2E}|Login\\Login.csproj|d:\\login\\login\\login\\serviciosasignadospage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{1F9EBFDB-1844-4534-B2CE-68B2685CEA2E}|Login\\Login.csproj|solutionrelative:login\\serviciosasignadospage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1F9EBFDB-1844-4534-B2CE-68B2685CEA2E}|Login\\Login.csproj|d:\\login\\login\\login\\serviciosasignadospage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1F9EBFDB-1844-4534-B2CE-68B2685CEA2E}|Login\\Login.csproj|solutionrelative:login\\serviciosasignadospage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1F9EBFDB-1844-4534-B2CE-68B2685CEA2E}|Login\\Login.csproj|d:\\login\\login\\login\\datospersonalespage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F9EBFDB-1844-4534-B2CE-68B2685CEA2E}|Login\\Login.csproj|solutionrelative:login\\datospersonalespage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,84 +22,45 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ServiciosAsignadosViewModel.cs",
-              "DocumentMoniker": "D:\\Login\\Login\\Login\\ServiciosAsignadosViewModel.cs",
-              "RelativeDocumentMoniker": "Login\\ServiciosAsignadosViewModel.cs",
-              "ToolTip": "D:\\Login\\Login\\Login\\ServiciosAsignadosViewModel.cs",
-              "RelativeToolTip": "Login\\ServiciosAsignadosViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAUAAAAsAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "DatosPersonalesPage.xaml.cs",
+              "DocumentMoniker": "D:\\Login\\Login\\Login\\DatosPersonalesPage.xaml.cs",
+              "RelativeDocumentMoniker": "Login\\DatosPersonalesPage.xaml.cs",
+              "ToolTip": "D:\\Login\\Login\\Login\\DatosPersonalesPage.xaml.cs",
+              "RelativeToolTip": "Login\\DatosPersonalesPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-28T15:44:13.014Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ServiciosAsignadosPage.xaml",
-              "DocumentMoniker": "D:\\Login\\Login\\Login\\ServiciosAsignadosPage.xaml",
-              "RelativeDocumentMoniker": "Login\\ServiciosAsignadosPage.xaml",
-              "ToolTip": "D:\\Login\\Login\\Login\\ServiciosAsignadosPage.xaml",
-              "RelativeToolTip": "Login\\ServiciosAsignadosPage.xaml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-11-28T15:44:05.732Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ServiciosAsignadosPage.xaml.cs",
-              "DocumentMoniker": "D:\\Login\\Login\\Login\\ServiciosAsignadosPage.xaml.cs",
-              "RelativeDocumentMoniker": "Login\\ServiciosAsignadosPage.xaml.cs",
-              "ToolTip": "D:\\Login\\Login\\Login\\ServiciosAsignadosPage.xaml.cs",
-              "RelativeToolTip": "Login\\ServiciosAsignadosPage.xaml.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAowBMAAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-28T15:37:09.574Z",
+              "WhenOpened": "2024-11-28T16:28:01.521Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "DetallesServicioViewModel.cs",
-              "DocumentMoniker": "D:\\Login\\Login\\Login\\DetallesServicioViewModel.cs",
-              "RelativeDocumentMoniker": "Login\\DetallesServicioViewModel.cs",
-              "ToolTip": "D:\\Login\\Login\\Login\\DetallesServicioViewModel.cs",
-              "RelativeToolTip": "Login\\DetallesServicioViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAUAAAAqAAAAAAAAAA==",
+              "Title": "DatosPersonalesViewModel.cs",
+              "DocumentMoniker": "D:\\Login\\Login\\Login\\DatosPersonalesViewModel.cs",
+              "RelativeDocumentMoniker": "Login\\DatosPersonalesViewModel.cs",
+              "ToolTip": "D:\\Login\\Login\\Login\\DatosPersonalesViewModel.cs",
+              "RelativeToolTip": "Login\\DatosPersonalesViewModel.cs",
+              "ViewState": "AgIAAEEAAAAAAAAAAAAAAAkAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-28T15:32:42.951Z",
+              "WhenOpened": "2024-11-28T16:23:05.465Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "DetallesServicioPage.xaml.cs",
-              "DocumentMoniker": "D:\\Login\\Login\\Login\\DetallesServicioPage.xaml.cs",
-              "RelativeDocumentMoniker": "Login\\DetallesServicioPage.xaml.cs",
-              "ToolTip": "D:\\Login\\Login\\Login\\DetallesServicioPage.xaml.cs",
-              "RelativeToolTip": "Login\\DetallesServicioPage.xaml.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAQwBQAAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-28T15:28:33.917Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "DetallesServicioPage.xaml",
-              "DocumentMoniker": "D:\\Login\\Login\\Login\\DetallesServicioPage.xaml",
-              "RelativeDocumentMoniker": "Login\\DetallesServicioPage.xaml",
-              "ToolTip": "D:\\Login\\Login\\Login\\DetallesServicioPage.xaml",
-              "RelativeToolTip": "Login\\DetallesServicioPage.xaml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAzAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "DatosPersonalesPage.xaml",
+              "DocumentMoniker": "D:\\Login\\Login\\Login\\DatosPersonalesPage.xaml",
+              "RelativeDocumentMoniker": "Login\\DatosPersonalesPage.xaml",
+              "ToolTip": "D:\\Login\\Login\\Login\\DatosPersonalesPage.xaml",
+              "RelativeToolTip": "Login\\DatosPersonalesPage.xaml",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAcwAwAAABcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-11-28T15:26:54.761Z",
+              "WhenOpened": "2024-11-28T16:18:54.463Z",
               "EditorCaption": ""
             }
           ]
