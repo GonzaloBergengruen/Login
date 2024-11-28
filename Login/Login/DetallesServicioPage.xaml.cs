@@ -6,11 +6,18 @@ namespace Login
 		public event Action<Servicio> ServicioRechazado;
 		private Servicio _servicio;
 
-		public DetallesServicioPage(Servicio servicio)
+		public DetallesServicioPage(Servicio servicio, bool Type)
 		{
 			InitializeComponent();
 			_servicio = servicio;
 			BindingContext = _servicio;
+			if(Type == true)
+			{
+				RechazarBoton.IsVisible = true;
+			} else
+			{
+				RechazarBoton.IsVisible = false;
+			}
 		}
 
 		public async void OnRechazarServicioClicked(object sender, EventArgs e)

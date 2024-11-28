@@ -5,32 +5,24 @@ namespace Login
         public ServiciosEjecutadosPage()
         {
             InitializeComponent();
-            Lista.Text = GetLista();
+            BindingContext = new ServiciosEjecutadosViewModel();
+        }
+
+        private async void OnServicioTapped(object sender, EventArgs e)
+        {
+            var label = (Label)sender;
+            var servicio = label.BindingContext as Servicio;
+
+            if (servicio != null)
+            {
+                var detallesPage = new DetallesServicioPage(servicio, false);
+                await Navigation.PushAsync(detallesPage);
+            }
         }
 
         private async void OnVolverClicked(object sender, EventArgs e)
         {
             await Navigation.PopAsync();
-        }
-
-        private string GetLista()
-        {
-            var lista = new List<string>();
-            string texto = "";
-            lista.Add("Nolose");
-            lista.Add("Cosa");
-            for (int i = 0; i < lista.Count; i++)
-            {
-                if (string.IsNullOrEmpty(texto))
-                {
-                    texto += lista[i];
-                }
-                else
-                {
-                    texto += "\n\n" + lista[i];
-                }
-            }
-            return texto;
         }
     }
 }

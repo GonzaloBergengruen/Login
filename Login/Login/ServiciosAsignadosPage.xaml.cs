@@ -1,6 +1,5 @@
 namespace Login
 {
-
     public partial class ServiciosAsignadosPage : ContentPage
     {
         public ServiciosAsignadosPage()
@@ -16,7 +15,7 @@ namespace Login
 
             if (servicio != null)
             {
-                var detallesPage = new DetallesServicioPage(servicio);
+                var detallesPage = new DetallesServicioPage(servicio, true);
                 detallesPage.ServicioRechazado += OnServicioRechazado;
                 await Navigation.PushAsync(detallesPage);
             }

@@ -10,7 +10,7 @@
         <Label Text="{Binding Detalle}" FontSize="18" HorizontalOptions="Start"/>
         <Label/>
 
-        <Button Text="Rechazar servicio" TextColor="White" BackgroundColor="Red" 
+        <Button x:Name="RechazarBoton" Text="Rechazar servicio" TextColor="White" BackgroundColor="Red" 
                 Clicked="OnRechazarServicioClicked"/>
 
         <Button Text="Volver" Clicked="OnVolverClicked"/>

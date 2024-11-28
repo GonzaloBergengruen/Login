@@ -8,7 +8,22 @@
     <StackLayout Padding="20" Spacing="20">
         <Label Text="Servicios Ejecutados" FontSize="24" HorizontalOptions="Center"/>
 
-        <Label x:Name="Lista" FontSize="18"/>
+        <CollectionView ItemsSource="{Binding Servicios}">
+            <CollectionView.ItemTemplate>
+                <DataTemplate>
+                    <Frame BorderColor="Gray" Margin="5" Padding="10" HorizontalOptions="FillAndExpand">
+                        <StackLayout>
+                            <Label Text="{Binding Nombre}" FontSize="18" HorizontalOptions="StartAndExpand">
+                                <Label.GestureRecognizers>
+                                    <TapGestureRecognizer Tapped="OnServicioTapped" CommandParameter="{Binding .}"/>
+                                </Label.GestureRecognizers>
+                            </Label>
+                        </StackLayout>
+                    </Frame>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+        
         <Label/>
 
         <Button Text="Volver" Clicked="OnVolverClicked"/>
