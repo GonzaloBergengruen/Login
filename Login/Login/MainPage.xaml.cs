@@ -10,7 +10,7 @@ namespace Login
             InitializeComponent();
         }
 
-
+        //Merge test
         private async void OnLoginButtonClicked(object sender, EventArgs e)
         {
             string userType = UserTypePicker.SelectedItem?.ToString();
