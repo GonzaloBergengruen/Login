@@ -1,5 +1,4 @@
-﻿using System.Text;
-using System.Text.RegularExpressions;
+﻿using System.Text.RegularExpressions;
 
 namespace Login
 {
@@ -10,7 +9,6 @@ namespace Login
             InitializeComponent();
         }
 
-        //kjhjbkjhghjvgjhb
         private async void OnLoginButtonClicked(object sender, EventArgs e)
         {
             string userType = UserTypePicker.SelectedItem?.ToString();

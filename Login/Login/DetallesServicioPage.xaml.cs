@@ -1,6 +1,5 @@
 namespace Login
 {
-
 	public partial class DetallesServicioPage : ContentPage
 	{
 		public event Action<Servicio> ServicioRechazado;

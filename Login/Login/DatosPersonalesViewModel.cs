@@ -1,7 +1,6 @@
 ﻿using System.Windows.Input;
 using System.ComponentModel;
 
-
 namespace Login
 {
     public class DatosPersonalesViewModel : INotifyPropertyChanged
