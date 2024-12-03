@@ -63,19 +63,19 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <MauiXaml Update="DatosPersonalesPage.xaml">
+	  <MauiXaml Update="Pages\DatosPersonalesPage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="DetallesServicioPage.xaml">
+	  <MauiXaml Update="Pages\DetallesServicioPage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="MenuPage.xaml">
+	  <MauiXaml Update="Pages\MenuPage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="ServiciosAsignadosPage.xaml">
+	  <MauiXaml Update="Pages\ServiciosAsignadosPage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="ServiciosEjecutadosPage.xaml">
+	  <MauiXaml Update="Pages\ServiciosEjecutadosPage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	</ItemGroup>

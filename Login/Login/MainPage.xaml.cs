@@ -11,7 +11,7 @@ namespace Login
 
         private async void OnLoginButtonClicked(object sender, EventArgs e)
         {
-            string userType = UserTypePicker.SelectedItem?.ToString();
+            string userType = UserTypePicker.SelectedItem?.ToString();  //Seleciona el tipo de usuario
             string user = UserEntry.Text;
             string password = PasswordEntry.Text;
             Aviso.Text = "";
@@ -45,11 +45,11 @@ namespace Login
             bool loginSuccess = true;
             if (loginSuccess)
             {
+                await Navigation.PushAsync(new MenuPage());
                 UserTypePicker.SelectedIndex = -1;
                 UserEntry.Text = "";
                 PasswordEntry.Text = "";
-                Aviso.Text = "";
-                await Navigation.PushAsync(new MenuPage());
+                Aviso.Text = "";                
             }
 
             // Enviar credenciales al servidor

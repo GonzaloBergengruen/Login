@@ -13,7 +13,7 @@
                 <DataTemplate>
                     <Frame BorderColor="Gray" Margin="5" Padding="10" HorizontalOptions="FillAndExpand">
                         <StackLayout>
-                            <Label Text="{Binding Nombre}" FontSize="18" HorizontalOptions="StartAndExpand">
+                            <Label Text="{Binding Nombre}" FontSize="18">
                                 <Label.GestureRecognizers>
                                     <TapGestureRecognizer Tapped="OnServicioTapped" CommandParameter="{Binding .}"/>
                                 </Label.GestureRecognizers>

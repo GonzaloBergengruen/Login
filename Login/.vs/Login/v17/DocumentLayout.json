@@ -3,24 +3,24 @@
   "WorkspaceRootPath": "D:\\Login\\Login\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1F9EBFDB-1844-4534-B2CE-68B2685CEA2E}|Login\\Login.csproj|d:\\login\\login\\login\\serviciosasignadospage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{1F9EBFDB-1844-4534-B2CE-68B2685CEA2E}|Login\\Login.csproj|solutionrelative:login\\serviciosasignadospage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{1F9EBFDB-1844-4534-B2CE-68B2685CEA2E}|Login\\Login.csproj|d:\\login\\login\\login\\pages\\datospersonalespage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{1F9EBFDB-1844-4534-B2CE-68B2685CEA2E}|Login\\Login.csproj|solutionrelative:login\\pages\\datospersonalespage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F9EBFDB-1844-4534-B2CE-68B2685CEA2E}|Login\\Login.csproj|d:\\login\\login\\login\\pages\\serviciosejecutadospage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{1F9EBFDB-1844-4534-B2CE-68B2685CEA2E}|Login\\Login.csproj|solutionrelative:login\\pages\\serviciosejecutadospage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1F9EBFDB-1844-4534-B2CE-68B2685CEA2E}|Login\\Login.csproj|d:\\login\\login\\login\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1F9EBFDB-1844-4534-B2CE-68B2685CEA2E}|Login\\Login.csproj|solutionrelative:login\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1F9EBFDB-1844-4534-B2CE-68B2685CEA2E}|Login\\Login.csproj|d:\\login\\login\\login\\detallesservicioviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1F9EBFDB-1844-4534-B2CE-68B2685CEA2E}|Login\\Login.csproj|solutionrelative:login\\detallesservicioviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1F9EBFDB-1844-4534-B2CE-68B2685CEA2E}|Login\\Login.csproj|d:\\login\\login\\login\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{1F9EBFDB-1844-4534-B2CE-68B2685CEA2E}|Login\\Login.csproj|solutionrelative:login\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1F9EBFDB-1844-4534-B2CE-68B2685CEA2E}|Login\\Login.csproj|d:\\login\\login\\login\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1F9EBFDB-1844-4534-B2CE-68B2685CEA2E}|Login\\Login.csproj|solutionrelative:login\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1F9EBFDB-1844-4534-B2CE-68B2685CEA2E}|Login\\Login.csproj|d:\\login\\login\\login\\detallesserviciopage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1F9EBFDB-1844-4534-B2CE-68B2685CEA2E}|Login\\Login.csproj|solutionrelative:login\\detallesserviciopage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1F9EBFDB-1844-4534-B2CE-68B2685CEA2E}|Login\\Login.csproj|d:\\login\\login\\login\\servicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F9EBFDB-1844-4534-B2CE-68B2685CEA2E}|Login\\Login.csproj|solutionrelative:login\\servicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -47,64 +47,67 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "ServiciosAsignadosPage.xaml",
-              "DocumentMoniker": "D:\\Login\\Login\\Login\\ServiciosAsignadosPage.xaml",
-              "RelativeDocumentMoniker": "Login\\ServiciosAsignadosPage.xaml",
-              "ToolTip": "D:\\Login\\Login\\Login\\ServiciosAsignadosPage.xaml",
-              "RelativeToolTip": "Login\\ServiciosAsignadosPage.xaml",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAoAAABOAAAAAAAAAA==",
+              "Title": "DatosPersonalesPage.xaml",
+              "DocumentMoniker": "D:\\Login\\Login\\Login\\Pages\\DatosPersonalesPage.xaml",
+              "RelativeDocumentMoniker": "Login\\Pages\\DatosPersonalesPage.xaml",
+              "ToolTip": "D:\\Login\\Login\\Login\\Pages\\DatosPersonalesPage.xaml",
+              "RelativeToolTip": "Login\\Pages\\DatosPersonalesPage.xaml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAkAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-12-03T16:38:12.583Z",
+              "WhenOpened": "2024-12-03T18:30:45.705Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "MainPage.xaml.cs",
-              "DocumentMoniker": "D:\\Login\\Login\\Login\\MainPage.xaml.cs",
-              "RelativeDocumentMoniker": "Login\\MainPage.xaml.cs",
-              "ToolTip": "D:\\Login\\Login\\Login\\MainPage.xaml.cs",
-              "RelativeToolTip": "Login\\MainPage.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-02T16:15:11.42Z",
+              "Title": "ServiciosEjecutadosPage.xaml",
+              "DocumentMoniker": "D:\\Login\\Login\\Login\\Pages\\ServiciosEjecutadosPage.xaml",
+              "RelativeDocumentMoniker": "Login\\Pages\\ServiciosEjecutadosPage.xaml",
+              "ToolTip": "D:\\Login\\Login\\Login\\Pages\\ServiciosEjecutadosPage.xaml",
+              "RelativeToolTip": "Login\\Pages\\ServiciosEjecutadosPage.xaml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABEAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-03T18:29:25.064Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "MauiProgram.cs",
-              "DocumentMoniker": "D:\\Login\\Login\\Login\\MauiProgram.cs",
-              "RelativeDocumentMoniker": "Login\\MauiProgram.cs",
-              "ToolTip": "D:\\Login\\Login\\Login\\MauiProgram.cs",
-              "RelativeToolTip": "Login\\MauiProgram.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAALAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-02T16:09:38.804Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "DetallesServicioViewModel.cs",
-              "DocumentMoniker": "D:\\Login\\Login\\Login\\DetallesServicioViewModel.cs",
-              "RelativeDocumentMoniker": "Login\\DetallesServicioViewModel.cs",
-              "ToolTip": "D:\\Login\\Login\\Login\\DetallesServicioViewModel.cs",
-              "RelativeToolTip": "Login\\DetallesServicioViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-02T16:09:29.059Z"
+              "Title": "MainPage.xaml",
+              "DocumentMoniker": "D:\\Login\\Login\\Login\\MainPage.xaml",
+              "RelativeDocumentMoniker": "Login\\MainPage.xaml",
+              "ToolTip": "D:\\Login\\Login\\Login\\MainPage.xaml",
+              "RelativeToolTip": "Login\\MainPage.xaml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAUAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-03T18:26:28.341Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "DetallesServicioPage.xaml.cs",
-              "DocumentMoniker": "D:\\Login\\Login\\Login\\DetallesServicioPage.xaml.cs",
-              "RelativeDocumentMoniker": "Login\\DetallesServicioPage.xaml.cs",
-              "ToolTip": "D:\\Login\\Login\\Login\\DetallesServicioPage.xaml.cs",
-              "RelativeToolTip": "Login\\DetallesServicioPage.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAABAAAAAAAAAA==",
+              "Title": "Servicio.cs",
+              "DocumentMoniker": "D:\\Login\\Login\\Login\\Servicio.cs",
+              "RelativeDocumentMoniker": "Login\\Servicio.cs",
+              "ToolTip": "D:\\Login\\Login\\Login\\Servicio.cs",
+              "RelativeToolTip": "Login\\Servicio.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-02T16:09:17.641Z"
+              "WhenOpened": "2024-12-03T18:24:53.619Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainPage.xaml.cs",
+              "DocumentMoniker": "D:\\Login\\Login\\Login\\MainPage.xaml.cs",
+              "RelativeDocumentMoniker": "Login\\MainPage.xaml.cs",
+              "ToolTip": "D:\\Login\\Login\\Login\\MainPage.xaml.cs",
+              "RelativeToolTip": "Login\\MainPage.xaml.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAowDMAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T17:07:30.914Z",
+              "EditorCaption": ""
             }
           ]
         }
