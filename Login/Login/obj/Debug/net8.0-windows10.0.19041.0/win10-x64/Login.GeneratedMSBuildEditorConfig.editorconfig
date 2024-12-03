@@ -34,29 +34,41 @@ build_metadata.AdditionalFiles.ManifestResourceName = Login.AppShell.xaml
 build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
 build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
 
-[D:/Login/Login/Login/DatosPersonalesPage.xaml]
-build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = Login.DatosPersonalesPage.xaml
-build_metadata.AdditionalFiles.TargetPath = DatosPersonalesPage.xaml
-build_metadata.AdditionalFiles.RelativePath = DatosPersonalesPage.xaml
-
-[D:/Login/Login/Login/DetallesServicioPage.xaml]
-build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = Login.DetallesServicioPage.xaml
-build_metadata.AdditionalFiles.TargetPath = DetallesServicioPage.xaml
-build_metadata.AdditionalFiles.RelativePath = DetallesServicioPage.xaml
-
 [D:/Login/Login/Login/MainPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Login.MainPage.xaml
 build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
 build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
 
-[D:/Login/Login/Login/MenuPage.xaml]
+[D:/Login/Login/Login/Pages/DatosPersonalesPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = Login.MenuPage.xaml
-build_metadata.AdditionalFiles.TargetPath = MenuPage.xaml
-build_metadata.AdditionalFiles.RelativePath = MenuPage.xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Login.Pages.DatosPersonalesPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\DatosPersonalesPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\DatosPersonalesPage.xaml
+
+[D:/Login/Login/Login/Pages/DetallesServicioPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Login.Pages.DetallesServicioPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\DetallesServicioPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\DetallesServicioPage.xaml
+
+[D:/Login/Login/Login/Pages/MenuPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Login.Pages.MenuPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\MenuPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\MenuPage.xaml
+
+[D:/Login/Login/Login/Pages/ServiciosAsignadosPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Login.Pages.ServiciosAsignadosPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\ServiciosAsignadosPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\ServiciosAsignadosPage.xaml
+
+[D:/Login/Login/Login/Pages/ServiciosEjecutadosPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Login.Pages.ServiciosEjecutadosPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\ServiciosEjecutadosPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\ServiciosEjecutadosPage.xaml
 
 [D:/Login/Login/Login/Resources/Styles/Colors.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
@@ -69,15 +81,3 @@ build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Login.Resources.Styles.Styles.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
-
-[D:/Login/Login/Login/ServiciosAsignadosPage.xaml]
-build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = Login.ServiciosAsignadosPage.xaml
-build_metadata.AdditionalFiles.TargetPath = ServiciosAsignadosPage.xaml
-build_metadata.AdditionalFiles.RelativePath = ServiciosAsignadosPage.xaml
-
-[D:/Login/Login/Login/ServiciosEjecutadosPage.xaml]
-build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = Login.ServiciosEjecutadosPage.xaml
-build_metadata.AdditionalFiles.TargetPath = ServiciosEjecutadosPage.xaml
-build_metadata.AdditionalFiles.RelativePath = ServiciosEjecutadosPage.xaml

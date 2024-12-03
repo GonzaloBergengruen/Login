@@ -16,6 +16,7 @@ namespace Login
             string password = PasswordEntry.Text;
             Aviso.Text = "";
 
+            //Controla que ningun campo este vacio
             if (string.IsNullOrWhiteSpace(userType) || string.IsNullOrWhiteSpace(user) || string.IsNullOrWhiteSpace(password))
             {
                 Aviso.Text = "Todos los campos son obligatorios";
@@ -40,6 +41,7 @@ namespace Login
                 }
             }
 
+            //Esto es para probar
             bool loginSuccess = true;
             if (loginSuccess)
             {
@@ -56,7 +58,11 @@ namespace Login
             //if (loginSuccess)
             //{
             //    await DisplayAlert("Éxito", "Inicio de sesión exitoso.", "OK");
-            //    //Navegar a la siguiente página
+            //    UserTypePicker.SelectedIndex = -1;
+            //    UserEntry.Text = "";
+            //    PasswordEntry.Text = "";
+            //    Aviso.Text = "";
+            //    await Navigation.PushAsync(new MenuPage());
             //}
             //else
             //{
@@ -109,8 +115,6 @@ namespace Login
             return calculatedDV == givenDV;
         }
 
-
-
         // Validación de Cédula
         private bool ValidateCedula(string cedula)
         {
@@ -157,7 +161,5 @@ namespace Login
         //        return false;
         //    }
         //}
-
     }
-
 }

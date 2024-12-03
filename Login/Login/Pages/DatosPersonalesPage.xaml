@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Login.DatosPersonalesPage"
+             Title=""
+             Shell.NavBarIsVisible="False">
+
+    <StackLayout Padding="20" Spacing="20">
+        <Label Text="Nombre" FontSize="18"/>
+        <Entry Text="{Binding Nombre, Mode=TwoWay}" Placeholder="Ingrese su nombre"/>
+
+        <Label Text="RUT/CI" FontSize="18"/>
+        <Entry Text="{Binding Id, Mode=TwoWay}" Placeholder="Ingrese su RUT/CI" Keyboard="Id"/>
+
+        <Label Text="Correo Electrónico" FontSize="18"/>
+        <Entry Text="{Binding Correo, Mode=TwoWay}" Placeholder="Ingrese su correo electrónico" Keyboard="Email"/>
+
+        <Label Text="Teléfono" FontSize="18"/>
+        <Entry Text="{Binding Telefono, Mode=TwoWay}" Placeholder="Ingrese su número de teléfono" Keyboard="Telephone"/>
+
+        <Label/>
+
+        <Button Text="Guardar Cambios"
+                BackgroundColor="Green"
+                TextColor="White"
+                Command="{Binding GuardarCommand}"/>
+        <Button Text="Volver" Clicked="OnVolverClicked"/>
+    </StackLayout>
+    
+</ContentPage>
