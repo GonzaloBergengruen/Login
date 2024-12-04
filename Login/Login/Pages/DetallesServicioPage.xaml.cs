@@ -1,3 +1,5 @@
+using Login.Modelos;
+
 namespace Login
 {
     public partial class DetallesServicioPage : ContentPage

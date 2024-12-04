@@ -23,7 +23,7 @@ namespace Login
                 return;
             }
 
-            // Validar según el tipo de usuario
+            //Validar según el tipo de usuario
             if (userType == "Proveedor")
             {
                 if (!ValidateRUT(user))
@@ -49,10 +49,10 @@ namespace Login
                 UserTypePicker.SelectedIndex = -1;
                 UserEntry.Text = "";
                 PasswordEntry.Text = "";
-                Aviso.Text = "";                
+                Aviso.Text = "";
             }
 
-            // Enviar credenciales al servidor
+            //Enviar credenciales al servidor
             //bool loginSuccess = await AuthenticateUser(userType, user, password);
 
             //if (loginSuccess)
@@ -70,31 +70,31 @@ namespace Login
             //}
         }
 
-        // Validación de RUT (Uruguay)
+        //Validación de RUT (Uruguay)
         private bool ValidateRUT(string rut)
         {
-            // Eliminar puntos y guiones si están presentes
+            //Eliminar puntos y guiones si están presentes
             rut = rut.Replace(".", "").Replace("-", "");
 
-            // Verificar que sea numérico y tenga entre 7 y 12 dígitos
+            //Verificar que sea numérico y tenga entre 7 y 12 dígitos
             if (!Regex.IsMatch(rut, @"^\d{7,12}$"))
                 return false;
 
-            // Calcular el dígito verificador (DV)
+            //Calcular el dígito verificador (DV)
             return ValidateRUTChecksum(rut);
         }
 
         private bool ValidateRUTChecksum(string rut)
         {
-            // Separar el número base y el dígito verificador
-            string baseNumber = rut.Substring(0, rut.Length - 1); // El número sin el DV
-            int givenDV = int.Parse(rut.Substring(rut.Length - 1)); // El dígito verificador
+            //Separar el número base y el dígito verificador
+            string baseNumber = rut.Substring(0, rut.Length - 1); //El número sin el DV
+            int givenDV = int.Parse(rut.Substring(rut.Length - 1)); //El dígito verificador
 
-            int[] weights = { 2, 3, 4, 5, 6, 7, 8, 9, 2, 3, 4 }; // Pesos según el estándar de Uruguay
+            int[] weights = { 2, 3, 4, 5, 6, 7, 8, 9, 2, 3, 4 }; //Pesos según el estándar de Uruguay
             int sum = 0;
             int weightIndex = 0;
 
-            // Aplicar el cálculo de módulo 11
+            //Aplicar el cálculo de módulo 11
             for (int i = baseNumber.Length - 1; i >= 0; i--)
             {
                 sum += (baseNumber[i] - '0') * weights[weightIndex];
@@ -111,17 +111,17 @@ namespace Login
             else
                 calculatedDV = 11 - remainder;
 
-            // Comparar el DV calculado con el DV dado
+            //Comparar el DV calculado con el DV dado
             return calculatedDV == givenDV;
         }
 
-        // Validación de Cédula
+        //Validación de Cédula
         private bool ValidateCedula(string cedula)
         {
-            // Remover cualquier separador
+            //Remover cualquier separador
             cedula = cedula.Replace(".", "").Replace("-", "");
 
-            // Verificar que sea numérica y tenga entre 6 y 8 dígitos
+            //Verificar que sea numérica y tenga entre 6 y 8 dígitos
             if (!Regex.IsMatch(cedula, @"^\d{6,8}$"))
             {
                 return false;
@@ -132,7 +132,7 @@ namespace Login
             }
         }
 
-        // Autenticación contra un cliente externo (ejemplo de API)
+        //Autenticación contra un cliente externo (ejemplo de API)
         //private async Task<bool> AuthenticateUser(string userType, string user, string password)
         //{
         //    try

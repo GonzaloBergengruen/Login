@@ -1,4 +1,5 @@
-﻿using System.Collections.ObjectModel;
+﻿using Login.Modelos;
+using System.Collections.ObjectModel;
 
 namespace Login.ViewModels
 {

@@ -1,4 +1,4 @@
-﻿namespace Login
+﻿namespace Login.Modelos
 {
     public class Servicio
     {
